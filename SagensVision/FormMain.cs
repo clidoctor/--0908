@@ -1504,7 +1504,7 @@ namespace SagensVision
                 AnchorList.Clear();
                 errstr.Clear();
             }
-            if (MyGlobal.ImageMulti.Count == 0)
+            if (MyGlobal.ImageMulti.Count == 0) 
             {
                 return "加载高度图和亮度图 Ng";
             }
@@ -3961,7 +3961,6 @@ namespace SagensVision
                     //ok = Encoding.UTF8.GetBytes(Sendmsg);
                     while (true)
                     {
-                        break;
                         int len = MyGlobal.sktClient.Receive(buffer);
 
                         if (len == 0)
